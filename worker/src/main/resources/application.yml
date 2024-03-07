@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+zeebe:
+  client:
+    cloud:
+      auth-url: https://login.cloud.dev.ultrawombat.com/oauth/token # remove for testing on production
+      base-url: zeebe.dev.ultrawombat.com # remove for testing on production
+      clientId: foo
+      clientSecret: bar
+      clusterId: baz
+      region: bat
